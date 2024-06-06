@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Progenereal"
+             x:Class="Progenereal.Menu"
+             >
+
+    <StackLayout>
+        <Button x:Name="Item1" Text="" ImageSource="{local:Imagen Progenereal.imagen.logo.png}"/>
+        <Button x:Name="Item2" Text="Item-2"/>
+        <Button x:Name="Item3" Text="Item-3"/>
+        <Button x:Name="Item4" Text="Item-4"/>
+    </StackLayout>
+
+</ContentPage>
